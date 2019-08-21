@@ -2537,6 +2537,10 @@ eslint@^5.0.1:
     table "^4.0.3"
     text-table "^0.2.0"
 
+esm@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.1.0.tgz#89eb950b3f04b691b12f96a0d9c8de93039a1a26"
+
 esm@^3.0.79, esm@^3.0.84:
   version "3.0.84"
   resolved "https://registry.yarnpkg.com/esm/-/esm-3.0.84.tgz#bb108989f4673b32d4f62406869c28eed3815a63"
@@ -3708,6 +3712,13 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
 
+js-yaml@3.13.1:
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
 js-yaml@^3.12.0, js-yaml@^3.9.0:
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
@@ -3881,13 +3892,17 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash._reinterpolate@~3.0.0:
+lodash._reinterpolate@^3.0.0, lodash._reinterpolate@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
 
 lodash.assign@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.assign/-/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
+
+lodash.assigninwith@^4.0.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.assigninwith/-/lodash.assigninwith-4.2.0.tgz#af02c98432ac86d93da695b4be801401971736af"
 
 lodash.camelcase@^4.3.0:
   version "4.3.0"
@@ -3905,6 +3920,10 @@ lodash.isplainobject@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
 
+lodash.keys@^4.0.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.keys/-/lodash.keys-4.2.0.tgz#a08602ac12e4fb83f91fc1fb7a360a4d9ba35205"
+
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
@@ -3913,11 +3932,37 @@ lodash.mergewith@^4.6.0:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
 
+lodash.mergewith@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz#617121f89ac55f59047c7aec1ccd6654c6590f55"
+
+lodash.rest@^4.0.0:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/lodash.rest/-/lodash.rest-4.0.5.tgz#954ef75049262038c96d1fc98b28fdaf9f0772aa"
+
 lodash.tail@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.tail/-/lodash.tail-4.1.1.tgz#d2333a36d9e7717c8ad2f7cacafec7c32b444664"
 
-lodash.template@^4.2.4, lodash.template@^4.4.0:
+lodash.template@4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.5.0.tgz#f976195cf3f347d0d5f52483569fe8031ccce8ab"
+  dependencies:
+    lodash._reinterpolate "^3.0.0"
+    lodash.templatesettings "^4.0.0"
+
+lodash.template@^4.2.4:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.2.4.tgz#d053c19e8e74e38d965bf4fb495d80f109e7f7a4"
+  dependencies:
+    lodash._reinterpolate "~3.0.0"
+    lodash.assigninwith "^4.0.0"
+    lodash.keys "^4.0.0"
+    lodash.rest "^4.0.0"
+    lodash.templatesettings "^4.0.0"
+    lodash.tostring "^4.0.0"
+
+lodash.template@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.4.0.tgz#e73a0385c8355591746e020b99679c690e68fba0"
   dependencies:
@@ -3930,9 +3975,17 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "~3.0.0"
 
+lodash.tostring@^4.0.0:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/lodash.tostring/-/lodash.tostring-4.1.4.tgz#560c27d1f8eadde03c2cce198fef5c031d8298fb"
+
 lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
+
+lodash@4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#0bdc3a6adc873d2f4e0c4bac285df91b64fc7b93"
 
 lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@~4.17.10:
   version "4.17.11"
