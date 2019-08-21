@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": false,
+    "vetur.validation.template": false,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        {"language":"javascript","autoFix": true},
+        {"language":"javascriptreact","autoFix": true},
+        {"language": "vue","autoFix": true},
+        {"language": "html","autoFix": true}
+    ]
+}

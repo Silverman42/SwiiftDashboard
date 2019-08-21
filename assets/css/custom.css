@@ -1,0 +1,42 @@
+/*
+**Custom links
+**
+*/
+.list-link, .list-link:hover, .list-link:focus{
+    text-decoration: none;
+    color: black;
+}
+.list-link:hover, .list-link:focus{
+    background: rgba(230, 230, 230, 0.26);
+}
+
+/*
+** Loadin animation
+*/
+
+.component-load{
+    animation: loading 1s ease-out infinite;
+}
+
+@keyframes loading{
+    0%{
+        background: var(--gray);
+        opacity: 0.1;
+    }
+    50%{
+        background: var(--gray);
+        opacity: 0.25;
+    }
+    100%{
+        background: var(--gray);
+        opacity: 0.1;
+    }
+}
+
+/*
+** Form Elements
+*/
+
+.rdiobox{
+    cursor: pointer;
+}

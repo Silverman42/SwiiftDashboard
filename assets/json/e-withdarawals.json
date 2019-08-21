@@ -1,0 +1,13 @@
+[
+    {
+        "user_id": 1,
+        "delivery_type": "express",
+        "status": "pending",
+        "cash_amount": 10000,
+        "token": 736483,
+        "address_id": 1,
+        "carrier_id": 2,
+        "delivery_date": "12/5/2020",
+        "delivery_time" : "11:30pm"
+    }
+]

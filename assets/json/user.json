@@ -1,0 +1,11 @@
+[
+    {
+        "first_name": "John",
+        "last_name": "Chris",
+        "type": "client",
+        "email": "chris@gmail.com",
+        "password": "secret",
+        "id": 1,
+        "account_type": "individual"
+    }
+]
